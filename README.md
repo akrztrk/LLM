@@ -1,4 +1,4 @@
-# LLM Learning Project (Akar)
+# LLM Learning Project 
 
 This repo contains my step-by-step LLM learning journey:
 - Inference
