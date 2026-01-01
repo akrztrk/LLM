@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# HF / cache
+hf_cache/
+.cache/
+*.safetensors
+*.bin
+
+# RAG index (istersen bunu da track edebiliriz; şimdilik tutmuyoruz)
+rag/index/
+
+# OS
+.DS_Store

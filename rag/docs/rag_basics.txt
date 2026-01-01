@@ -1,0 +1,10 @@
+RAG (Retrieval-Augmented Generation) improves an LLM's answers by retrieving relevant information from an external knowledge base.
+
+Core steps:
+1) Chunk documents into smaller pieces.
+2) Create embeddings for each chunk and store them in a vector index (e.g., FAISS).
+3) For a user question, embed the question and retrieve top-k most similar chunks.
+4) Add retrieved chunks as context to the prompt.
+5) Generate an answer grounded in that retrieved context.
+
+RAG is not "using a second model to filter answers". It is retrieval + grounding.
