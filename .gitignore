@@ -12,7 +12,7 @@ hf_cache/
 *.safetensors
 *.bin
 
-# RAG index (istersen bunu da track edebiliriz; şimdilik tutmuyoruz)
+# RAG index 
 rag/index/
 
 # OS
