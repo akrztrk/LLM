@@ -1,10 +1,35 @@
-RAG (Retrieval-Augmented Generation) improves an LLM's answers by retrieving relevant information from an external knowledge base.
+Contains explanatory documents, notes, and reference material about RAG concepts, design choices, and best practices.
 
-Core steps:
-1) Chunk documents into smaller pieces.
-2) Create embeddings for each chunk and store them in a vector index (e.g., FAISS).
-3) For a user question, embed the question and retrieve top-k most similar chunks.
-4) Add retrieved chunks as context to the prompt.
-5) Generate an answer grounded in that retrieved context.
+---
 
-RAG is not "using a second model to filter answers". It is retrieval + grounding.
+## Scope of This Branch
+
+This branch is focused on:
+- Conceptual understanding of RAG
+- Project structure and documentation
+- Experiment notes and design decisions
+
+It does **not** include:
+- Model training code
+- Inference pipelines
+- Production-ready implementations
+
+Those are handled in other branches.
+
+---
+
+## Next Steps
+
+Planned future work includes:
+- Building a minimal RAG pipeline
+- Indexing documents with vector databases
+- Comparing different retrieval strategies
+- Integrating RAG with fine-tuned language models
+
+---
+
+## Notes
+
+This branch is intentionally lightweight and documentation-driven to keep experiments isolated and easy to iterate on.
+
+
