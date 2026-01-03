@@ -1,19 +1,30 @@
+# Data
+data/
+*.jsonl
+*.parquet
+*.csv
+
+# Models / checkpoints
+models/
+outputs/
+checkpoint-*/
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+
+# Hugging Face cache
+hf_cache/
+.cache/
+**/.cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
 # Python
 __pycache__/
 *.pyc
-.venv/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# HF / cache
-hf_cache/
-.cache/
-*.safetensors
-*.bin
-
-# RAG index 
-rag/index/
 
 # OS
 .DS_Store
+Thumbs.db
