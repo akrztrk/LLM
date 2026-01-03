@@ -1,8 +1,0 @@
-transformers
-datasets
-accelerate
-peft
-bitsandbytes
-sentencepiece
-huggingface_hub
-trl
