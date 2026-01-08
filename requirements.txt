@@ -6,3 +6,4 @@ bitsandbytes
 sentencepiece
 huggingface_hub
 trl
+streamlit

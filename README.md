@@ -22,3 +22,7 @@ Given a Dutch sentence, it returns:
 ```bash
 python inference/run_tutor.py --sentence "Ik heb gisteren naar winkel gaan."
 
+## Streamlit Demo (Colab)
+1) Start the app:
+```bash
+streamlit run app.py
